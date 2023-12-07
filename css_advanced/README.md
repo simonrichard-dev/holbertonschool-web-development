@@ -11,3 +11,7 @@ The objectives of the project are the following :
 - How to compute CSS Specificity Value
 - What are Box properties in CSS
 - How does the browser load a webpage ?
+
+The visual is the following :
+
+<img width="1440" alt="School Page@2x" src="https://github.com/simonrichard-dev/holbertonschool-web-development/assets/90547332/3aed503f-4d50-4298-ae80-a99550213dda">
