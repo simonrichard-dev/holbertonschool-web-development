@@ -9,6 +9,7 @@ body {
     width: 1440px;
     font-family: 'Source Sans Pro';
     color: #F2F2F2;
+    margin: 0 auto;
 }
 
 header {
@@ -19,8 +20,7 @@ header {
     left:171.59px;
     width:1103.41px;
     height: 29.46px;
-    /*background-color:chocolate;*/
-    
+    background-color:chocolate;
 }
 
 header a {
@@ -35,17 +35,41 @@ header .menu {
     width: 234px;
     display: flex;
     justify-content: space-around;
-    /*background-color: blueviolet;*/
+    background-color: blueviolet;
     place-self: center end;
 }
 
-.banner .title120 {
+
+.banner {
     display: flex;
-    position: relative;
     justify-content: center;
+    position: relative;
+    /*background-color: blueviolet;*/
+    flex-direction: column;
+}
+
+.banner .title120 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    top: 220px;
+    left: 377px;
+    width: 684px;
+    height: 151px;
     font-size: 120px;
+    background-color:chocolate;
+}
+
+.banner .words{
+    background-color: aquamarine;
+}
+
+.banner .pros{
+    display: flex;
+    background-color: bisque;
+    flex-direction:row;
 }
 
 .banner .title32 {
     font-size: 32px;
+    background-color: blue;
 }
