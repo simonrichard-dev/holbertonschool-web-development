@@ -1,0 +1,51 @@
+@font-face { font-family: Source Sans Pro; src: url('./fonts/SourceSansPro-Bold.otf'); }
+@font-face { font-family: SpinCycle; src: url('./fonts/spincycle_ot.otf'); }
+
+
+body {
+    background-image: url(./img/Object.png);
+    background-repeat: no-repeat;
+    height: 1093px;
+    width: 1440px;
+    font-family: 'Source Sans Pro';
+    color: #F2F2F2;
+}
+
+header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    top:35.02px;
+    left:171.59px;
+    width:1103.41px;
+    height: 29.46px;
+    /*background-color:chocolate;*/
+    
+}
+
+header a {
+    text-decoration: none;
+    font-family: 'Source Sans Pro';
+    color: #F2F2F2;
+    font-size: 12px;
+}
+
+header .menu {
+    height:15px;
+    width: 234px;
+    display: flex;
+    justify-content: space-around;
+    /*background-color: blueviolet;*/
+    place-self: center end;
+}
+
+.banner .title120 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 120px;
+}
+
+.banner .title32 {
+    font-size: 32px;
+}
