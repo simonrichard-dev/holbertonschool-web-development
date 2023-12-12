@@ -9,6 +9,7 @@ body {
     font-family: 'Source Sans Pro';
     color: #F2F2F2;
     margin: 0px;
+    width: 1440px
 }
 
 main {
@@ -46,7 +47,7 @@ header .menu {
 
 .banner {
     position: relative;
-    top: 193px;
+    top: 220px;
     left: 0px;
     margin: 0px;
     padding: 0px;
@@ -75,7 +76,7 @@ header .menu {
     position: relative;
     align-items: center;
     top: 40px;
-    left: 660.08px;
+    left: 639.08px;
     width: 162px;
     height: 44px;
     font-size: 14px;
@@ -85,10 +86,10 @@ header .menu {
     padding: 0px;
     color: #FFFFFF;
     background-color: #C271FF;
-
 }
 
 .banner .title32 {
+    font-family: "Source sans Pro";
     text-align: center;
     top: 412px;
     left: 562.58px;
@@ -97,6 +98,11 @@ header .menu {
     height: 40px;
     width: 361px;
     font-size: 32px;
+}
+
+span {
+    color: #C271FF;
+    font-weight: bold;
 }
 
 .banner .pros{
@@ -136,9 +142,60 @@ header .menu {
 
 .quote {
     display:flex;
-    flex-direction: rows;
-    background-color: aqua;
-    top: 1093px;
+    width: 1440px;
+    height:392px;
+    position: relative;
+    top: 611px;
+    margin: 0px;
+    background-color: #C271FF;
+    justify-content: space-around;
+    place-self: center end;
+}
+
+.quote .img_and_text {
+    display: flex;
+    justify-content: space-around;
+    place-self: center end;
+    width: 943px;
+}
+
+.quote .text {
+    /* background-color: darkslategrey; */
+    width: 730px;
+    height: 158px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.quote .blockquote {
     position:relative;
-    margin:0px;
+    width: 730px;
+    height: 68px;
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: "Source sans Pro Regular";
+    font-weight: lighter;
+    
+}
+
+.job, .person_name {
+    margin: 10px;
+    font-weight: normal;
+}
+
+.job {
+    font-family: "Source sans Pro Light";
+}
+
+.videos {
+    display: flex;
+    position: relative;
+    top: 1485px;
+}
+
+.videos .video {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
 }
