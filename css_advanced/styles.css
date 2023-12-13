@@ -72,7 +72,7 @@ header .menu {
     font-weight: bold;
 }
 
-.banner .register {
+.register {
     position: relative;
     align-items: center;
     top: 40px;
@@ -188,14 +188,35 @@ span {
     font-family: "Source sans Pro Light";
 }
 
-.videos {
-    display: flex;
+.tutorials {
     position: relative;
-    top: 1485px;
-}
-
-.videos .video {
+    height: 450px;
+    width:1228px;
     display: flex;
     flex-direction: column;
-    background-color: grey;
+    top: 542px;
+    left: 106px;
+    color: #071629;
+}
+
+.tutorials .videos {
+    display:flex;
+    flex-direction: row;
+    height: 450px;
+    width:1228px;
+    background-color: dodgerblue;
+}
+
+.tutorials .video {
+    width: 255px;
+    height: 335px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: grey; */
+    font-family: Source sans Pro Bold;
+}
+.tutorials .videos .video .tuto_pic {
+    height: 30px;
+    width: 30px;
 }
