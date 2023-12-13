@@ -1,3 +1,7 @@
+@font-face { font-family: Source Sans Pro; src: url('./fonts/SourceSansPro-Regular.otf'); }
+@font-face { font-family: Source Sans Pro; src: url('./fonts/SourceSansPro-Light.otf'); }
+@font-face { font-family: Source Sans Pro; src: url('./fonts/SourceSansPro-LightIt.otf'); }
+@font-face { font-family: Source Sans Pro; src: url('./fonts/SourceSansPro-BoldIt.otf'); }
 @font-face { font-family: Source Sans Pro; src: url('./fonts/SourceSansPro-Bold.otf'); }
 @font-face { font-family: SpinCycle; src: url('./fonts/spincycle_ot.otf'); }
 
@@ -194,28 +198,84 @@ span {
     width:1228px;
     display: flex;
     flex-direction: column;
-    top: 542px;
+    top: 698px;
     left: 106px;
     color: #071629;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.tutorials .tutos_title {
+    margin: 0px;
+    padding: 0px;
+    height: 115px;
+    width:1228px;
+    display: flex;
+    justify-content: center;
 }
 
 .tutorials .videos {
     display:flex;
     flex-direction: row;
+    justify-content: space-evenly;
     height: 450px;
-    width:1228px;
-    background-color: dodgerblue;
+    width: 1228px;
+    /* background-color:cadetblue; */
 }
 
-.tutorials .video {
+.tutorials .videos .video {
     width: 255px;
     height: 335px;
+    margin: 0px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* background-color: grey; */
-    font-family: Source sans Pro Bold;
+    justify-content: space-between;
+    font-family: "Source sans Pro Bold";
+    color: #071629;
 }
+
+.tutorials .videos .video .tuto_img {
+    position: absolute;
+    width: 255px;
+    height: 154px;
+    z-index: 0;
+}
+
+.tutorials .videos .video .play {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    z-index: 10;
+}
+
+.tutorials .videos .video .tuto_title {
+    width:auto;
+    height: 20px;
+    position: relative;
+    align-items: center;
+    top: 199px;
+    color:#071629;
+    font-family: "Source sans Pro";
+    font-size: 16px;
+    background-color: deeppink;
+}
+
+.tutorials .videos .video .tuto_text {
+    width: 242px;
+    height: 48px;
+    position: relative;
+    top: 199px;
+    text-align: left;
+    color:#071629;
+    fill-opacity: 50.16%;
+
+    /* background-color: deeppink; */
+}
+
 .tutorials .videos .video .tuto_pic {
     height: 30px;
     width: 30px;
