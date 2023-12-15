@@ -164,7 +164,6 @@ span {
 }
 
 .quote .text {
-    /* background-color: darkslategrey; */
     width: 730px;
     height: 158px;
     margin: 0px;
@@ -193,6 +192,81 @@ span {
 }
 
 .tutorials {
+    position:relative;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: 624px;
+    color:black;
+    width: 1440px;
+    height: 450px;
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+    top: 698px;
+}
+
+.tutos_title {
+    width: 1228px;
+    height:115px;
+    margin: 0px;
+    background-color: coral;
+    text-align: center;
+}
+
+.videos {
+    width: 1228px;
+    height: 335px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    height: 335px;
+    width: 255px;
+    background-color: aqua;
+}
+
+.tuto_img {
+    display: flex;
+    width: 255px;
+    height: 154px;
+    align-items: center;
+    z-index: 0;
+}
+
+.play {
+    display: flex;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    align-items: center;
+    top: 163px;
+    z-index: 10;
+}
+
+.tuto_title {
+    background-color: darkgoldenrod;
+}
+
+.tuto_text {
+    background-color: #C271FF;
+}
+
+.Author {
+    background-color: crimson;
+    display: flex;
+
+}
+
+.tuto_pic {
+    height: 30px;
+    width: 30px;
+}
+
+.rating {
+    background-color: mediumseagreen;
 }
