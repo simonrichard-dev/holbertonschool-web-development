@@ -5,7 +5,6 @@
 @font-face { font-family: Source Sans Pro; src: url('./fonts/SourceSansPro-Bold.otf'); }
 @font-face { font-family: SpinCycle; src: url('./fonts/spincycle_ot.otf'); }
 
-
 body {
     background-image: url(./img/Object.png);
     background-repeat: no-repeat;
@@ -240,6 +239,8 @@ span {
     width: 255px;
     height: 154px;
     align-items: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
     z-index: 0;
 }
 
@@ -304,4 +305,119 @@ span {
     margin-top: 5px;
     margin-bottom: 5px;
     color:#C271FF
+}
+
+.membership {
+    display: flex;
+    top: 70px;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    top: 785px;
+    width: 1440px;
+    height: 502px;
+    background-color: #071629;
+}
+
+.member_title {
+    position:relative;
+    width: 247px;
+    height: 40px;
+    top:70px;
+    font-family: "Source sans Pro";
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.member_title span {
+    color: #C271FF;
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-weight: 700;
+}
+
+
+.large_block {
+    position:relative;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    top: 168px;
+}
+
+.small_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    width: 257px;
+    height: 153px;
+
+}
+
+.small_block h2 {
+    width: 256px;
+    height: 26px;
+    top: 62px;
+    margin: 0px;
+}
+
+.small_block p{
+    width: 212px;
+    height: 52px;
+    top: 101px;
+    margin: 0px;
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 185.714% */
+}
+
+.membership .register {
+    position: absolute;
+    align-items: center;
+    top: 406px;
+}
+
+.FAQ {
+    width: 1440px;
+    height: 707px;
+    position: relative;
+    top: 1078px;
+    margin: 0;
+    padding:0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #be2222;
+    color: black;
+}
+
+.FAQ h1 {
+    width: 920px;
+    background-color: purple;
+}
+
+.row_block {
+    display: flex;
+    flex-direction: row;
+    background-color: darkorange;
+}
+
+.item_block {
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
 }
