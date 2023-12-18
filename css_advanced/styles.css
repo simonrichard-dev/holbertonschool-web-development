@@ -382,7 +382,7 @@ span {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 185.714% */
+    line-height: 26px; 
 }
 
 .membership .register {
@@ -425,8 +425,6 @@ span {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
-    /* background-color: darkorange; */
 }
 
 .item_block {
@@ -435,8 +433,6 @@ span {
     text-align: left;
     margin-top: 15px;
     margin-bottom: 15px;
-
-    /* background-color: cadetblue; */
 }
 
 .item_block h2 {
@@ -462,14 +458,62 @@ span {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 171.429% */
+    line-height: 24px;
 }
 
 footer {
     display: flex;
     position: relative;
-    top: 1250px;
+    justify-content: center;
+    top: 858px;
     width: 1440px;
     height:249px;
     background-color: #071629;
+}
+
+.footer_block {
+    position: relative;
+    width: 1031px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.footer_content {
+    width: 1031px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 169px;
+    height: 30px;
+    display: flex;
+}
+
+.social_network {
+    display:flex;
+    flex-direction: row;
+    width: 130px;
+    height: 30px;
+    gap:10px;
+}
+
+.footer_text {
+    width: 96px;
+    height: 15px;
+    display: flex;
+    position: relative;
+    top: 74px;
+    text-align: center;
+    color: #FFF;
+    font-family: "Source Sans Pro Regular";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.3517;;
 }
